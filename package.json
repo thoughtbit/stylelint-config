@@ -1,0 +1,46 @@
+{
+  "name": "@thoughtbit/stylelint-config",
+  "version": "1.0.0",
+  "description": "A stylelint config by ThoughtBit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thoughtbit/stylelint-config.git"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "properties-order.json"
+  ],
+  "keywords": [
+    "stylelint",
+    "stylelint-config"
+  ],
+  "authors": [
+    "moocss <moocss@gmail.com> (https://github.com/moocss)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thoughtbit/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/thoughtbit/stylelint-config#readme",
+  "dependencies": {
+    "stylelint-config-css-modules": "1.0.0",
+    "stylelint-config-standard": "16.0.0",
+    "stylelint-order": "0.5.0"
+  },
+  "devDependencies": {
+    "ci-publish": "^1.3.0",
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0",
+    "standard-version": "^4.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "scripts": {
+    "commit": "git-cz",
+    "release:ci": "standard-version && git push --follow-tags origin master && ci-publish"
+  }
+}
