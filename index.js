@@ -1,11 +1,10 @@
-'use strict';
 const propertiesOrder = require('./properties-order.json');
 
 module.exports = {
   extends: [
     'stylelint-config-standard', 
     'stylelint-config-css-modules'
-    ],
+  ],
   plugins: [
     'stylelint-order'
   ],
