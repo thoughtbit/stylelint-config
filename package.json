@@ -41,6 +41,7 @@
   },
   "scripts": {
     "commit": "git-cz",
-    "release:ci": "standard-version && git push --follow-tags origin master && ci-publish"
+    "release:ci": "standard-version && git push --follow-tags origin master && ci-publish",
+    "pub": "npm publish && git push origin"
   }
 }
