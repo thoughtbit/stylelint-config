@@ -1,3 +1,3 @@
-# stylelint-config
-ThoughtBit config for Stylelint
+# stylelint-config-cssplus
+A stylelint config for working with cssplus
 
