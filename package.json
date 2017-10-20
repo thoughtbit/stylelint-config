@@ -1,10 +1,10 @@
 {
-  "name": "@thoughtbit/stylelint-config",
-  "version": "1.0.0",
-  "description": "A stylelint config by ThoughtBit",
+  "name": "stylelint-config-cssplus",
+  "version": "1.0.1",
+  "description": "A stylelint config for working with cssplus",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thoughtbit/stylelint-config.git"
+    "url": "git+https://github.com/thoughtbit/stylelint-config-cssplus.git"
   },
   "main": "index.js",
   "files": [
@@ -13,16 +13,17 @@
   ],
   "keywords": [
     "stylelint",
-    "stylelint-config"
+    "stylelint-config",
+    "cssplus"
   ],
   "authors": [
     "moocss <moocss@gmail.com> (https://github.com/moocss)"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thoughtbit/stylelint-config/issues"
+    "url": "https://github.com/thoughtbit/stylelint-config-cssplus/issues"
   },
-  "homepage": "https://github.com/thoughtbit/stylelint-config#readme",
+  "homepage": "https://github.com/thoughtbit/stylelint-config-cssplus#readme",
   "dependencies": {
     "stylelint-config-css-modules": "^1.1.0",
     "stylelint-config-standard": "^17.0.0",
