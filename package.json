@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-cssplus",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A stylelint config for working with cssplus",
   "repository": {
     "type": "git",
@@ -25,9 +25,9 @@
   },
   "homepage": "https://github.com/thoughtbit/stylelint-config-cssplus#readme",
   "dependencies": {
-    "stylelint-config-css-modules": "^1.1.0",
-    "stylelint-config-standard": "^17.0.0",
-    "stylelint-order": "^0.7.0"
+    "stylelint-config-css-modules": "^1.0.0",
+    "stylelint-config-standard": "^16.0.0",
+    "stylelint-order": "^0.5.0"
   },
   "devDependencies": {
     "ci-publish": "^1.3.0",
